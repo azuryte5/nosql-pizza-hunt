@@ -67,6 +67,8 @@ const handlePizzaSubmit = event => {
     })
     .catch(err => {
       console.log(err);
+      //Woot, added in 18.4
+      saveRecord(formData);
     });
 };
 
